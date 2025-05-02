@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personality Quiz About My Baby 💖</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background: #fff0f5;
+      color: #4b0082;
+      padding: 30px;
+      text-align: center;
+    }
+    div{
+        text-align: center;
+    }
+    h1 {
+      color: #ff69b4;
+    }
+    .question {
+      margin-bottom: 30px;
+    }
+    button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff1493;
+    }
+    .answer {
+      margin-top: 10px;
+      font-style: italic;
+      color: #d80073;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Answer this quiz if you really know your personality hehe</h1>
+
+  <div class="question">
+    <p>1. What's your most annoying trait?</p>
+    <input type="radio" name="q1"> Being childish<br>
+    <input type="radio" name="q1"> A cry baby<br>
+    <input type="radio" name="q1"> Stealing hearts<br>
+    <input type="radio" name="q1"> Making me miss you all the time<br>
+    <div class="answer" id="a1"></div>
+  </div>
+
+  <div class="question">
+    <p>2. Your talent?</p>
+    <input type="radio" name="q2"> Dancing<br>
+    <input type="radio" name="q2"> Too much beauty<br>
+    <input type="radio" name="q2"> Singing<br>
+    <input type="radio" name="q2"> Volleyball<br>
+    <div class="answer" id="a2"></div>
+  </div>
+
+  <div class="question">
+    <p>3. What's your favorite food?</p>
+    <input type="radio" name="q3"> sushi<br>
+    <input type="radio" name="q3"> chicken <br>
+    <input type="radio" name="q3"> noodles<br>
+    <input type="radio" name="q3"> fish<br>
+    <div class="answer" id="a3"></div>
+  </div>
+  <div class="question">
+    <p>4. Your power?</p>
+    <input type="radio" name="q4"> flying<br>
+    <input type="radio" name="q4"> teleporting <br>
+    <input type="radio" name="q4"> fire <br>
+    <input type="radio" name="q4"> Immortal<br>
+    <div class="answer" id="a4"></div>
+  </div>
+  
+
+  <button onclick="revealAnswers()">Submit Answers 💌</button>
+
+  <script>
+    function revealAnswers() {
+      document.getElementById("a1").innerText = "Correct Answer: You have NO annoying traits 😡. You're flawless poo 😘";
+      document.getElementById("a2").innerText = "Engkkkkkk, Correct Answer: You can make people happy in a different way 💖";
+      document.getElementById("a3").innerText = "mayiiiii!!!! Correct Answer: si Kai 😁🥰";
+      document.getElementById("a4").innerText = "nopez, Correct Answer: Your power is facing so many challenges and still finding a way to keep going, standing strong even when everything feels hard ";
+      
+    }
+  </script>
+</body>
+</html>
